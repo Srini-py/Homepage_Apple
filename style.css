@@ -1,0 +1,258 @@
+body {
+    background-color: white;
+    font-family: 'arial';
+    padding-top: 50px;
+    margin: 0 0;
+}
+
+nav {
+    margin-top: 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+    width: 100%;
+}
+
+nav ul{
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    line-height: 50px;
+    margin-top: 0;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+#iphone-se {
+    background-image: url("iphone-se.jpg");
+    padding-bottom: 25%;
+    background-size: 100% 100%;
+}
+
+#iphone-se {
+    color: white;
+    margin-top: 2%;
+}
+
+#iphone-se ul {
+    display: flex;
+    justify-content: center;
+}
+
+#iphone-se ul li {
+    padding: 0 4%;
+}
+
+#iphone-11 {
+    background-image: url("iphone-11.jpg");
+    padding-bottom: 30%;
+    background-size: 100% 100%;
+    color: white;
+}
+
+#iphone-11 h1 {
+    margin-top: 1%;
+}
+
+#iphone-11 ul {
+    display: flex;
+    justify-content: center;
+}
+
+#iphone-11 ul li {
+    padding: 0 4%;
+}
+
+#ipad-pro {
+    background-image: url("ipad-pro.jpg");
+    padding-bottom: 30%;
+    background-size: 100% 100%;
+    color: black;
+}
+
+#ipad-pro h1 {
+    margin-top: 1%;
+}
+
+#ipad-pro ul {
+    display: flex;
+    justify-content: center;
+}
+
+#ipad-pro ul li {
+    padding: 0 4%;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-around;
+}
+
+.for-resize {
+    width: 49%;
+    height: auto;
+}
+
+#spring-semester {
+    background-image: url("apple-spring-semester.jpg");
+    background-size: 100% 100%;
+    height: 123.113;
+    padding-top: 5%;
+    color: black;
+    margin-top: 1%;
+    padding-bottom: 31%;
+}
+
+#spring-semester h1 {
+    margin-top: 0;
+}
+
+#airpods {
+    background-image: url("airpods.jpg");
+    background-size: 100% 100%;
+    padding-top: 5%;
+    color: black;
+    margin-top: 1%;
+    padding-bottom: 30%;
+}
+
+#airpods h1 {
+    margin-top: 0;
+}
+
+#airpods ul {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 0;
+}
+
+#airpods ul li {
+    padding: 0 4%;
+}
+
+#products {
+    background-image: url("products.jpg");
+    background-size: 100% 100%;
+    color: black;
+    padding-bottom: 30%;
+}
+
+#products h1 {
+    margin-top: 0;
+}
+
+#little-voice {
+    background-image: url("little-voice.jpg");
+    background-size: 100% 100%;
+    color: black;
+    padding-bottom: 30.6%;
+}
+
+#little-voice h1 {
+    margin-top: 0;
+}
+
+#watch {
+    background-image: url("watch-series-5.jpg");
+    background-size: 100% 100%;
+    padding-top: 5%;
+    color: black;
+    margin-top: 1%;
+    padding-bottom: 50%;
+}
+
+#watch ul {
+    display: flex;
+    justify-content: center;
+}
+
+#watch ul li {
+    padding: 0 4%;
+}
+
+#logo {
+    background-image: url("apple-logo.jpg");
+    background-size: 100% 100%;
+    padding-top: 5%;
+    color: white;
+    margin-top: 1%;
+    padding-bottom: 50%;
+}
+
+#fit {
+    text-align: justify;
+    max-width: 60%;
+    margin: 0 auto;
+}
+
+article + hr {
+    max-width: 60%;
+    margin: 0 auto;
+}
+
+#credits {
+    display: flex;
+    justify-content: space-around;
+    max-width: 60%;
+    margin: 0 auto;
+    font-size: 14px;
+}
+
+#credits li {
+    line-height: 160%;
+}
+
+#credits a {
+    color: grey;
+}
+
+footer {
+    max-width: 60%;
+    margin: 0 auto;
+}
+
+footer #country {
+    float: right;
+}
+
+footer ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+h1 {
+    padding-top: 5%;
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+section {
+    background-repeat: no-repeat;
+    /*background-position: center;*/
+    position: relative;
+    text-align: center;
+}
+
+.href:after {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    content: "";
+}
